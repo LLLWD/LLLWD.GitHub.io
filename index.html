@@ -4,7 +4,28 @@
   <meta charset="UTF-8">
   <title>笔记</title>
   <body>
-    asd
+    <script>
+    window.$docsify = {
+      search: 'auto',
+      name: '小张笔记',//侧边栏标题
+      repo: 'https://github.com/Proberen/xiaozhang_java.git',
+      coverpage: true,
+      loadNavbar: true,//顶部导航
+      loadSidebar: true, // 加载自定义侧边栏
+      maxLevel: 4, // 默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。
+      subMaxLevel: 5, // 生成目录的最大层级
+      mergeNavbar: true, // 小屏设备下合并导航栏到侧边栏
+      topMargin: 60,
+      search: {
+        paths: 'auto',
+        placeholder: '🔍 搜索',
+        noData: '😒 找不到结果',
+        // Headline depth, 1 - 6
+        depth: 6,
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+      },//添加搜索框
+    } 
+  </script>
   </body>
   
 </head>
