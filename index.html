@@ -15,12 +15,10 @@
   </style>
 </head>
 <body>
-  <div id="app">🏃‍🏃‍🏃‍💨 Loading....</div>
    <script>
     window.$docsify = {
-      search: 'auto',
-      name: '小张笔记',//侧边栏标题
-      repo: 'https://github.com/Proberen/xiaozhang_java.git',
+      name: '笔记',//侧边栏标题
+      repo: 'https://github.com/LLLWD/LLLWD.github.io.git',
       coverpage: true,
       loadNavbar: true,//顶部导航
       loadSidebar: true, // 加载自定义侧边栏
@@ -64,17 +62,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
-  <script>
-    const gitalk = new Gitalk({
-      clientID: 'a704ca6f182b7758af8c',
-      clientSecret: 'bc34952b5245ac0c9e794d53962ff60a0d7c2b7d',
-      repo: 'xiaozhang_java',
-      owner: 'Proberen',
-      admin: ['Proberen'],
-      id: location.pathname,
-      distractionFreeMode: false
-    })
-  </script>
+
   <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
   <!-- 回到顶部功能 -->
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.js"></script>
@@ -98,33 +86,6 @@
   gtag('js', new Date());
 
   gtag('config', 'G-S02Z7R76NJ');
-</script>
-
-<script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
-<script>
-  L2Dwidget.init({
-    "model": {
-      //jsonpath控制显示那个小萝莉模型，
-      //(切换模型需要改动)
-      jsonPath: "https://unpkg.com/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json",
-      "scale": 1
-    },
-    "display": {
-      "position": "right", //看板娘的表现位置
-      "width": 80,  //小萝莉的宽度
-      "height": 160, //小萝莉的高度
-      "hOffset": 35,
-      "vOffset": -20
-    },
-    "mobile": {
-      "show": true,
-      "scale": 0.5
-    },
-    "react": {
-      "opacityDefault": 0.7,
-      "opacityOnHover": 0.2
-    }
-  });
 </script>
 
 </body>
